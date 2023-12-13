@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7F08332B29B83500302E8C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F08322B29B83500302E8C /* SwiftUIView.swift */; };
+		2C7F08352B29B97200302E8C /* StoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F08342B29B97200302E8C /* StoryManager.swift */; };
+		2C7F08372B29B99900302E8C /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F08362B29B99900302E8C /* Story.swift */; };
 		AC8B51592B29B772007BB51F /* HackerNewsProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B51582B29B772007BB51F /* HackerNewsProjectApp.swift */; };
 		AC8B515B2B29B772007BB51F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B515A2B29B772007BB51F /* ContentView.swift */; };
 		AC8B515D2B29B774007BB51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8B515C2B29B774007BB51F /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C7F08322B29B83500302E8C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		2C7F08342B29B97200302E8C /* StoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryManager.swift; sourceTree = "<group>"; };
+		2C7F08362B29B99900302E8C /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		AC8B51552B29B772007BB51F /* HackerNewsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerNewsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8B51582B29B772007BB51F /* HackerNewsProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsProjectApp.swift; sourceTree = "<group>"; };
 		AC8B515A2B29B772007BB51F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				AC8B51582B29B772007BB51F /* HackerNewsProjectApp.swift */,
+				2C7F08342B29B97200302E8C /* StoryManager.swift */,
+				2C7F08362B29B99900302E8C /* Story.swift */,
+				2C7F08322B29B83500302E8C /* SwiftUIView.swift */,
 				AC8B515A2B29B772007BB51F /* ContentView.swift */,
 				AC8B515C2B29B774007BB51F /* Assets.xcassets */,
 				AC8B515E2B29B774007BB51F /* HackerNewsProject.entitlements */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC8B515B2B29B772007BB51F /* ContentView.swift in Sources */,
+				2C7F08352B29B97200302E8C /* StoryManager.swift in Sources */,
 				AC8B51592B29B772007BB51F /* HackerNewsProjectApp.swift in Sources */,
+				2C7F08332B29B83500302E8C /* SwiftUIView.swift in Sources */,
+				2C7F08372B29B99900302E8C /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
