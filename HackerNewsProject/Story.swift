@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Story: Codable {
+struct Story: Codable, Hashable {
     var id: Int
     var deleted: Bool
     var type: String
