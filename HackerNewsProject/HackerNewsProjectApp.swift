@@ -11,7 +11,7 @@ import SwiftUI
 struct HackerNewsProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StoriesView(stories: ["Lysander", "Jamie"])
         }
     }
 }
